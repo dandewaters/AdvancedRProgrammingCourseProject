@@ -5,12 +5,12 @@ make_LD <- function(df){
 }
 
 ## Longitudinal Data methods
-print.LongitudinalData <- function(x){
+make_LongitudinalData <- function(x){
   data <- df %>% nest(-id)
   structure(data, class=c("LongitudinalData"))
 }
 
-subject.LongitudinalData <- function(data, id){
+print.LongitudinalData <- function(data, id){
   cat("Longitudinal dataset with", length(x[["id"]]), "subjects")
   invisible(x)
 }
