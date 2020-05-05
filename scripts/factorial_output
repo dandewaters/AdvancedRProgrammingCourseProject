@@ -1,0 +1,5 @@
+                 expr   min    lq     mean median    uq     max neval
+1   factorial_loop(n)   584   585 32821.46    877   877 3186851   100
+2 factorial_reduce(n) 40914 41790 89573.95  42375 44128 3606211   100
+3   factorial_func(n)  4091  4676 40907.65   4968  5260 3551855   100
+4    factorial_mem(n)   292   584 51699.93    585   877 5094577   100
