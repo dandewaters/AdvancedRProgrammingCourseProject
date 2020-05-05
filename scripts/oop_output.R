@@ -1,10 +1,10 @@
 ## Read in the data
 library(readr)
 library(magrittr)
-source("./test/oop_code.R")
+source("oop_code.R")
 ## Load any other packages that you may need to execute your code
 
-data <- read_csv("./data/MIE.csv")
+data <- read_csv("MIE.csv")
 x <- make_LD(data)
 print(class(x))
 print(x)
